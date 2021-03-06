@@ -1,0 +1,80 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn {
+  font-weight: bold;
+  border-radius: 0%;
+  padding: 25px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.theme-primary {
+  background-color: #fb472b;
+  color: white;
+}
+
+.theme-secondary {
+  background-color: #92bf3e;
+}
+
+#partial_distribuçao_fisica,
+#partial_distribucao_representacao {
+  background-color: #e4e4e4;
+}
+
+#partial_distribuçao_fisica h3,
+#partial_distribucao_representacao h3 {
+  color: #fb472b;
+}
+
+#partial_distribuçao_fisica .card:hover,
+#partial_distribucao_representacao .card:hover {
+  border: 1px solid #92bf3e;
+  -webkit-box-shadow: 1px 1px 5px #c4c4c4;
+          box-shadow: 1px 1px 5px #c4c4c4;
+}
+
+#certo {
+  background-image: url("../img/undraw/superhero_kguv.svg");
+  background-position: right;
+  background-size: 500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-color: #B5B6B7;
+  color: #525252;
+}
+
+.go-up {
+  display: none;
+  padding: 20px;
+  background: #fb472b;
+  border: 2px solid white;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.go-up:hover {
+  background: #92bf3e;
+  color: #525252;
+}
+/*# sourceMappingURL=main.css.map */

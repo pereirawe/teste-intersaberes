@@ -1,0 +1,83 @@
+html {
+    scroll-behavior: smooth;
+}
+
+img{
+    max-width: 100%;
+}
+
+.btn{
+    font-weight: bold;
+    border-radius: 0%;
+    padding: 25px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.theme-primary{
+    background-color: $primary-color;
+    color: white;
+}
+
+
+.theme-secondary{
+    background-color: $secondary-color;
+    // color: $dark-color;
+    
+}
+
+#partial_distribuçao_fisica,
+#partial_distribucao_representacao{
+    background-color: #e4e4e4;
+
+    h3{
+        color: $primary-color
+    }
+
+    .card{
+        &:hover{
+            border: 1px solid $secondary-color;
+            box-shadow: 1px 1px 5px #c4c4c4;
+        }
+    }
+}
+
+#certo{
+    background-image: url('../img/undraw/superhero_kguv.svg');
+    background-position: right;
+    background-size: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+footer{
+    background-color: $gray-color;
+    color: $dark-color;
+
+}
+
+.go-up {
+	display:none;
+	padding:20px;
+	background:$primary-color;
+    border: 2px solid white;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+    &:hover{
+        background:$secondary-color;
+        color: $dark-color;
+    }
+}
+
+
